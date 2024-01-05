@@ -8,18 +8,18 @@ public class Main {
 	
 	public static void main(String[] args) { //TODO
 		
-		Mahasiswa ani = new Mahasiswa();
+		/*Mahasiswa ani = new Mahasiswa();
 		
 		ani.setNim("12345");
 		ani.setNama("Ani");
 		ani.setAlamat("Singaraja");
 		ani.setTanggalLahir("1 Januari 2000");
 		ani.setJenisKelamin(true);
-		ani.setProdi("Ilmu Komputer");
+		ani.setProdi("Ilmu Komputer");*/
 		 
 		Dosen Prana = new Dosen();
 		
-		Prana.setNidn("45678");
+		Prana.setNip("45678");
 		Prana.setNama("Prana");
 		Prana.setAlamat("Kampung Anyar");
 		Prana.setTanggalLahir("31 Desember 1980");
@@ -28,15 +28,15 @@ public class Main {
 		
 		
 		
-		System.out.println (ani.getNim());
+		/*System.out.println (ani.getNim());
 		System.out.println (ani.getNama());
 		System.out.println (ani.getAlamat());
 		System.out.println (ani.getTanggalLahir());
 		System.out.println (ani.getJenisKelamin());
-		System.out.println (ani.getProdi());
+		//System.out.println (ani.getProdi());*/
+		System.out.println ("--------------");
 		
-		
-		System.out.println (Prana.getNidn());
+		System.out.println (Prana.getNip());
 		System.out.println (Prana.getNama());
 		System.out.println (Prana.getAlamat());
 		System.out.println (Prana.getTanggalLahir());
@@ -57,5 +57,7 @@ public class Main {
 		System.out.println(ani.tanggalLahir);
 		System.out.println(ani.jenisKelamin);
 		System.out.println(ani.prodi);*/
+		
+	
 	}
 }
